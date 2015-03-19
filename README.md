@@ -30,19 +30,21 @@ Mannual
 
 		> cd */bin/Debug/
 
-		* represents the directory of the program. 
+  * represents the directory of the program. 
+  
 
 * Under the directory, you can get the final image without any parameters. 
 
 		>./GSDAM_T *.jpg 
 
-		*.jpg is the input image and it will output a image name "*-Bidui.tif".
+  *.jpg is the input image and it will output a image name "*-Bidui.tif".
 
 * Or run the file with several parameter and exact filenames you want for obtaining intermediate images.
 
 		> ./GSDAM_T *.jpg -x x.tif -y y.tif
 
-* x.tif and y.tif are the filenames of output image along with -x and -y as the optional parameters perspectively.
+  x.tif and y.tif are the filenames of output image along with -x and -y as the optional parameters perspectively.
+
 * More details please read 使用说明.txt 
 
 
