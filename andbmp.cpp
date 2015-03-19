@@ -1,5 +1,5 @@
-#include <cv.h>
-#include <highgui.h>
+#include </usr/local/include/opencv/cv.h>
+#include </usr/local/include/opencv/highgui.h>
 #include <iostream>
 
 using namespace std;

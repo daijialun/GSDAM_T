@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1420364855 source:/home/dai/实验室/GSDAM_T/andbmp.cpp
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	<iostream>
+
+1420364893 source:/home/dai/实验室/GSDAM_T/binary2.cpp
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	<iostream>
+	<string>
+	<fstream>
+
+1426753580 source:/home/dai/实验室/GSDAM_T/check.cpp
+	<string>
+	<string.h>
+
+1426472655 source:/home/dai/实验室/GSDAM_T/computerfour.cpp
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	<iostream>
+	<string>
+
+1426482036 source:/home/dai/实验室/GSDAM_T/contourimage.cpp
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	"/usr/local/include/opencv/cxcore.h"
+	<iostream>
+
+1420360765 /usr/local/include/opencv/cxcore.h
+	"opencv2/core/core_c.h"
+
+1426753383 source:/home/dai/实验室/GSDAM_T/main.cpp
+	<iostream>
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	<stdio.h>
+	<string.h>
+	<string>
+
+1426753341 source:/home/dai/实验室/GSDAM_T/save.cpp
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+	"/usr/local/include/opencv/cxcore.h"
+	<iostream>
+	<string>
+
+1426767135 source:/home/dai/实验室/GSDAM_T/bidui.cpp
+	<iostream>
+	</usr/local/include/opencv/cv.h>
+	</usr/local/include/opencv/highgui.h>
+

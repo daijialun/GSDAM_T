@@ -1,5 +1,5 @@
-#include <cv.h>
-#include <highgui.h>
+#include </usr/local/include/opencv/cv.h>
+#include </usr/local/include/opencv/highgui.h>
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -46,7 +46,7 @@ IPL binary2(IPL pimg,IPL img)
 	{
 		for(j=0; j<width; j++)
 		{
-			sa = cvGet2D(img, i, j);//iÊÇÐÐ£¬jÊÇÁÐ£»
+			sa = cvGet2D(img, i, j);//iæ˜¯è¡Œï¼Œjæ˜¯åˆ—ï¼›
 			da.val[0] = a *  sa.val[0] + b;
 			cvSet2D(img, i, j, da);
 		}
@@ -108,7 +108,7 @@ IPL binary2(IPL pimg,IPL img)
 		else
 			u1 = 0;
 //		cout<<" tmp1:"<<tmp1<<" w1:"<<w1<<" u1:"<<u1;
-		o2[k] =w0 * w1 * (u1 - u0) * (u1 -u0);//´Ë´¦ÓëÂÛÎÄ¹«Ê½²»·û£»
+		o2[k] =w0 * w1 * (u1 - u0) * (u1 -u0);//æ­¤å¤„ä¸Žè®ºæ–‡å…¬å¼ä¸ç¬¦ï¼›
 //		cout<<" o2["<<k<<"]:"<<o2[k]<<endl;
 
 
@@ -141,7 +141,7 @@ IPL binary2(IPL pimg,IPL img)
 		}
 	}
 
-//¶þÖµ»¯ºó£¬ºÃÏñÊÇ»Ò¶ÈÖµ´óÓÚãÐÖµµÄÎªºÚÉ«£¬Ð¡ÓÚãÐÖµµÄÎª°×É«£¬ÎªÊ²Ã´£¿
+//äºŒå€¼åŒ–åŽï¼Œå¥½åƒæ˜¯ç°åº¦å€¼å¤§äºŽé˜ˆå€¼çš„ä¸ºé»‘è‰²ï¼Œå°äºŽé˜ˆå€¼çš„ä¸ºç™½è‰²ï¼Œä¸ºä»€ä¹ˆï¼Ÿ
    //cvSaveImage(outfile,img);
 return img;
 }
