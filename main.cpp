@@ -10,9 +10,16 @@ extern IPL binary2(IplImage*,IPL);//二值化和相与的函数吕梁程序中有好几个，后面要
 extern IPL andbmp(IPL,IPL);
 extern IPL contourimage(IPL);
 extern IPL bidui(IPL,IPL);
+extern IPL input;
 
 int main(int argc, char* argv[])
 {
+    switch(argv[1][0])
+    {
+            case '-' :  {}
+            default:
+    }
+
     IPL src3=cvLoadImage(argv[1],0);//将图像文件加载至内存，自动分配图像数据结构所需的内存，该函数执行完后将返回一个指针
     //IPL dst=0;
     IPL src = cvCreateImage( cvSize( src3 -> width+3, src3 -> height+3 ), IPL_DEPTH_8U, src3->nChannels);
@@ -63,7 +70,10 @@ int main(int argc, char* argv[])
         printf("开运算的次数是：\n");
         cin>>t5;
         //t5=atoi(argv[6]);*/
+=========================================================
 
+
+    input(src);''
     int height=src->height, width=src->width;//此处注释缩放后去掉
     double **c1;
     double **c2;
@@ -87,6 +97,7 @@ int main(int argc, char* argv[])
     yzmap=new double*[width];
     //lengthmap=new double*[width];//lengthmap法向量的模对应的灰度图像
 
+
     /*string savingfile(argv[1]);//实验后去除
     savingfile.erase(savingfile.find_last_of("."));
     savingfile += "-灰度图.tif";
@@ -96,6 +107,8 @@ int main(int argc, char* argv[])
     //cvSmooth(src , imgBF , CV_BILATERAL,-1,50,0,11);
     //cvSaveImage("ImgBF.bmp",imgBF);
    cvCopyMakeBorder( src3, src, cvPoint( 1, 1 ), IPL_BORDER_CONSTANT );
+
+
 
     for(int i=0; i<width; i++)
 		{
@@ -112,7 +125,7 @@ int main(int argc, char* argv[])
 
         }
 
-
+=====================================================================
     int x,y;
     CvScalar Ix0y0,Ix0y1,Ix1y1,Ix1y0;
     double w1,w2,w3,* w1_z,* w2_z,* w3_z,dis,* dis_z;//可不可以只定义指针类型的？
