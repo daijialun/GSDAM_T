@@ -17,13 +17,14 @@ results obtained using this software, please use this citation.
     year    = {2014},
     }
 
-Mannual
+
+Manual
 ========
 
 
 ### Installation
 
-* Open `GSDAM_T.cbp` in Code::Blocks and build the project named "GSDAM_T".
+* Open `GSDAM_T.cbp` in Code::Blocks and build the project named `GSDAM_T`.
 
 ### Run the code
 * Using the command line in terminal, change directory into the location of final file.
